@@ -20,7 +20,7 @@
 
 //Code reused from https://github.com/varvet/BarcodeReaderSample
 
-package com.example.receiptstash;
+package com.HackUIowa17.receiptstash;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

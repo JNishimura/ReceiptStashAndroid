@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.receiptstash">
+    package="com.HackUIowa17.receiptstash">
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.HackUIowa17.receiptstash.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -21,34 +21,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ReceiptsActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.HackUIowa17.receiptstash.ReceiptsActivity"
+            android:parentActivityName="com.HackUIowa17.receiptstash.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.HackUIowa17.receiptstash.MainActivity" />
         </activity>
         <activity
-            android:name=".CameraActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.HackUIowa17.receiptstash.CameraActivity"
+            android:parentActivityName="com.HackUIowa17.receiptstash.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.HackUIowa17.receiptstash.MainActivity" />
         </activity>
         <activity
-            android:name=".BarcodeCaptureActivity"
-            android:parentActivityName=".CameraActivity">
+            android:name="com.HackUIowa17.receiptstash.BarcodeCaptureActivity"
+            android:parentActivityName="com.HackUIowa17.receiptstash.CameraActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CameraActivity" />
+                android:value="com.HackUIowa17.receiptstash.CameraActivity" />
         </activity>
-        <activity android:name=".IndividualReceipt">
+        <activity android:name="com.HackUIowa17.receiptstash.IndividualReceipt">
             android:name=".IndividualReceiptActivity"
             android:parentActivityName=".ReceiptsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ReceiptsActivity" />
+                android:value="com.HackUIowa17.receiptstash.ReceiptsActivity" />
         </activity>
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name="com.HackUIowa17.receiptstash.SettingsActivity"></activity>
     </application>
 
 </manifest>

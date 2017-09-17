@@ -1,4 +1,4 @@
-package com.example.receiptstash;
+package com.HackUIowa17.receiptstash;
 
 import android.provider.BaseColumns;
 

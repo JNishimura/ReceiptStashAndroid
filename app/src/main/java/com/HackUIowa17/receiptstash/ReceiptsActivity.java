@@ -1,4 +1,4 @@
-package com.example.receiptstash;
+package com.HackUIowa17.receiptstash;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -60,7 +60,7 @@ public class ReceiptsActivity extends ListActivity {
                     System.out.println("Product is: " + cursor.getInt(2) * cursor.getInt(3));
                     totalPrice += cursor.getInt(2) * cursor.getInt(3);
                 } else {
-                    txnStrings.add("Order #: " + pastOrderId + " Date: " + pastDate + " Total: " + totalPrice);
+                    txnStrings.add("Order #: " + pastOrderId + " Date: " + pastDate + " Total: $" + totalPrice);
                     totalPrice = cursor.getInt(2) * cursor.getInt(3);
                     pastOrderId = cursor.getInt(0);
                     pastDate = cursor.getString(4);
