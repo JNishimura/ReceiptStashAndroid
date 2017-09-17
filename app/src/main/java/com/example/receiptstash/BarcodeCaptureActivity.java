@@ -16,6 +16,10 @@
  * This file and all BarcodeXXX and CameraXXX files in this project edited by
  * Daniell Algar (included due to copyright reason)
  */
+
+
+//Code reused from https://github.com/varvet/BarcodeReaderSample
+
 package com.example.receiptstash;
 
 import android.Manifest;

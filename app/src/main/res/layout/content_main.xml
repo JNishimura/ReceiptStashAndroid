@@ -16,6 +16,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="213dp"
+        android:layout_height="0dp"
+        android:src="@mipmap/rs_icon"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        android:layout_marginTop="44dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
